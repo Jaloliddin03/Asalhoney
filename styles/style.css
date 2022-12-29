@@ -1,0 +1,479 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration:none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    background: #E5E5E5;
+}
+.container{
+    max-width: 1530px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header{
+    max-width: 1530px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+/* HEADER STERT */
+
+.header__nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.header__nav-logo{
+    margin-left: 227px;
+    margin-top: 30px;
+}
+
+.header__nav-list{
+    margin-top: 38px;
+}
+
+.header__nav-list :first-child{ color: #000000;
+    font-family: 'Kodchasan';
+    font-weight: 700;
+font-size: 18px;
+line-height: 23px;
+}
+
+.header__nav-list :last-child{
+    margin-right: 50px;
+}
+
+.header__nav-link {
+    color: #000000;
+    font-family: 'Kodchasan';
+    font-weight: 500;
+font-size: 18px;
+line-height: 23px;
+margin-right: 40px;
+}
+
+.header__content{
+    background: linear-gradient(76.02deg, #FF9D2D 1.66%, #FFD877 93.21%);
+    border-radius: 30px;
+    margin: 0 50px;
+    margin-top: 30px;
+    
+}
+
+.header__content{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    
+}
+
+.header__img{
+    margin-left: 20px;
+
+}
+h1{
+    font-family: 'Kodchasan';
+font-weight: 700;
+font-size: 100px;
+line-height: 130px;
+color: #0B0B0B;
+
+}
+
+.header__titles{
+    margin-top: 182px;
+    
+}
+
+.h1{
+    margin-left: 99px;
+
+}
+
+
+
+.btn1{
+    width: 180px;
+height: 65px;
+background: #000000;
+color: aliceblue;
+font-family: 'Kodchasan';
+font-weight: 700;
+font-size: 18px;
+line-height: 160%;
+margin-top: 70px;
+
+}
+
+
+.btn2{
+    width: 209px;
+height: 65px;
+font-family: 'Kodchasan';
+font-weight: 700;
+font-size: 18px;
+line-height: 160%;
+border: 2px solid #000000;
+background: linear-gradient(76.02deg, #FF9D2D 1.66%, #FFD877 93.21%);
+margin-bottom: 156px;
+}
+
+/* HEADER END */
+
+
+
+/* MAIN STARTED */
+
+h2{
+    font-family: 'Kodchasan';
+font-style: normal;
+font-weight: 700;
+font-size: 45px;
+line-height: 160%;
+color: #000000;
+margin-top: 130px;
+margin-left: 228px;
+}
+
+.main__logo{
+    position: absolute;
+width: 1146.34px;
+height: 37.88px;
+left: 14.25%;
+top: 1217px;
+display: flex;
+justify-content: space-around;
+}
+
+
+.main__content{
+    display: flex;
+    align-items: center;
+}
+
+.main__content-bg{
+    width: 579.07px;
+height: 555.07px;
+margin-top: 5px;
+}
+
+
+
+.main__titles{
+    margin-top: 336px;
+}
+
+
+h3{font-family: 'Kodchasan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 145%;
+    color: #000000;
+    margin-top: 336px;
+    width: 548px;
+height: 130px;
+word-wrap: break-all;
+    
+}
+
+
+.main__content-block{
+    margin-top: 206px;
+    margin-left: 97px;
+}
+
+.main__content-text{
+    font-family: 'Kodchasan';
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 160%;
+width: 516px;
+height: 105px;
+margin-top: 30px;
+}
+
+
+.main__content-btn{
+    display: flex;
+     justify-content: center;
+     align-items: center;
+width: 184px;
+height: 59px;
+background: #E68311;
+margin-top: 65px;
+color: #FFFFFF;
+font-family: 'Kodchasan';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 160%;
+}
+
+/* main__content end */
+
+
+/* main__content-2 started */
+
+.main__content-2{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.main__content_2-titles{
+    margin-bottom: 306px;
+    margin-left: 30px;
+    
+}
+
+
+
+.main__content_2-bg{
+    width: 579.07px;
+    height: 555.07px;
+
+}
+
+h4{
+    font-family: 'Kodchasan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 145%;
+    color: #000000;
+    margin-top: 336px;
+    width: 548px;
+height: 130px;
+word-wrap: break-all;
+}
+
+.main__content_2-text{
+    font-family: 'Kodchasan';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 160%;
+    width: 516px;
+    height: 105px;
+    margin-top: 30px;
+}
+
+
+.main__content_2-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+width: 184px;
+height: 59px;
+background: #E68311;
+margin-top: 65px;
+color: #FFFFFF;
+font-family: 'Kodchasan';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 160%;
+}
+
+
+/* main__content-2 end */
+
+
+/* main__content-3 start */
+
+
+
+.main__content-3{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    
+}
+
+
+
+h5{
+    font-family: 'Kodchasan';
+font-style: normal;
+font-weight: 700;
+font-size: 45px;
+line-height: 160%;
+color: #000000;
+margin-right: 800px;
+}
+
+
+.main__content_3-link{
+    font-family: 'Kodchasan';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 160%;
+text-decoration-line: underline;
+color: #E58211;
+display: flex;
+}
+
+.main__content_3-box{
+    display: flex;
+    justify-content: center;
+    width: 1146px;
+height: 427px;
+margin: 0 auto;
+margin-top: 50px;
+}
+
+
+.main__content-box1{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    width: 558px;
+height: 305px;
+margin-right: 30px;
+background: #f1cca2;
+}
+
+
+.main__content-box2{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    width: 558px;
+height: 305px;
+background:#f1cca2;
+}
+.main-con-title1{
+    width: 302px;
+height: 216px;
+display: block;
+
+}
+
+.main__content_3-title{
+    width: 302px;
+height: 216px;
+display: block;
+}
+
+
+h6{
+    width: 262px;
+height: 39px;
+
+
+font-family: 'Kodchasan';
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 140%;
+color: #000000;
+}
+
+
+.main__content_3-text{
+    width: 302px;
+height: 78px;
+
+font-family: 'Kodchasan';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 160%;
+margin-top: 20px;
+margin-bottom: 40px;
+
+color: #000000;
+
+opacity: 0.7;
+}
+
+
+.main__content_3-btn{
+    width: 140px;
+    height: 49px;
+
+font-family: 'Kodchasan';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 160%;
+color: #E58211;
+}
+
+
+/* main end */
+
+
+/* footer start */
+
+
+.footer{
+    width: 1600px;
+height: 137px;
+width: 100%;
+background: linear-gradient(76.02deg, #FF9D2D 1.66%, #FFD877 93.21%);
+display: flex;
+align-items: center;
+}
+
+.footer-logo{
+height: 28.62649154663086px;
+width: 66px;
+margin-left: 229px;
+
+
+}
+
+
+.footer-text{
+    display: block;
+    width: 269px;
+height: 47px;
+
+font-family: 'Kodchasan';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 160%;
+margin-left: 50px;
+
+
+color: #000000;
+
+opacity: 0.7;
+}
+
+
+
+.footer-icons{
+margin-right: 40px;
+
+}
+
+
+.footer-icon{
+    margin-left: 88px;
+}
+
+
+.con-1{
+    Width:9.87px;
+Height:19.75px;
+}
+
+
+.footer-links{
+    margin-left: px;
+}
